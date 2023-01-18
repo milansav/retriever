@@ -1,0 +1,12 @@
+{
+  "name": "@milandev/retriever",
+  "version": "1.0.0",
+  "description": "A tiny TypeScript fetch library",
+  "main": "index.js",
+  "author": "",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
+}
