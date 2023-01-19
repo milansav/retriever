@@ -14,7 +14,10 @@ export const useFetch = <Res = any>(
   return fetch(input, options).then((res) => res.json() as Res);
 };
 
-const useBearer = (token: string, options: UseBearerOptions): RequestInit => {
+export const useBearer = (
+  token: string,
+  options: UseBearerOptions
+): RequestInit => {
   if (options["headers"]) {
     options["headers"]["Authorization"] = `Bearer ${token}`;
   } else {
