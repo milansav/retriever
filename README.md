@@ -6,7 +6,12 @@ A minimalistic TypeScript fetch library focusing on user-experience.
 
 ## Usage
 
+### Installation
+
+`npm i @milandev/retriever`
+
 Call signature:
+
 `Get(<url>, <options>)`
 
 `Post(<url>, <options>)`
