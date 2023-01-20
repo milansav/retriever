@@ -63,8 +63,8 @@ import { Get } from "@milandev/retriever";
 const token = "mytoken";
 const files = Get(
   "http://localhost:3000/files",
-  useAuth(token, {
-    // settings
+  useBearer(token, {
+    // BodyInit
   })
 );
 ```
